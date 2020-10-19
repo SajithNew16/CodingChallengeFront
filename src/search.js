@@ -102,10 +102,10 @@ class SearchList extends Component {
             <Button type="submit" color="success" onClick={this.one}>
               One
             </Button>
-            <Button type="submit" color="info" onClick={this.exit}>
+            <Button type="submit" color="info" onClick={this.exit} disabled>
               Two
             </Button>
-            <Button type="submit" color="warning" onClick={this.exit}>
+            <Button type="submit" color="warning" onClick={this.exit} disabled>
               Quit
             </Button>
           </div>
@@ -118,10 +118,10 @@ class SearchList extends Component {
             <Button type="submit" color="primary" onClick={this.users}>
               Users
             </Button>
-            <Button type="submit" color="secondary" onClick={this.exit}>
+            <Button type="submit" color="secondary" onClick={this.exit} disabled>
               Tickets
             </Button>
-            <Button type="submit" color="success" onClick={this.exit}>
+            <Button type="submit" color="success" onClick={this.exit} disabled>
               Organizations
             </Button>
           </div>
